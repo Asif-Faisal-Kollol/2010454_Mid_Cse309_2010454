@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+i {
+  color: #fff;
+}
+
+.fixed-content {
+  width: auto;
+
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px;
+  text-align: center;
+}
+.header {
+  background-image: url('C:\Users\USER\Downloads\chandrikadeb7.github.io-v1-master\Id_2010454_mid\img\milky-way-2695569_1280.jpg');
+  background-repeat: no-repeat, repeat;
+  /*background-attachment: fixed;*/
+  background-color:rgb(24, 31, 42);
+  color: white;
+  max-height: 500px;
+  height: 100%;
+}
+.header .port {
+  border-radius: 50%;
+  border: 6px #822828 solid;
+  width: 16%;
+}
+.icon-row {
+  margin: 45px auto;
+  width: 100%;
+}
+.icon-row i {
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 44px;
+  margin: 0px 20px;
+  padding: 20px 30px;
+  transition: all 400ms ease-in-out;
+}
+.icon-row i:hover {
+  background: #FFF;
+  color: #ca5549;
+}
+.second {
+  background-color: #3c7fc6;
+  background: #ba151559;
+  color: #0c0b0b;
+  width: 100%;
+}
+#portfolio h2,
+#contact h2 {
+  font-size: 40px;
+  margin: 0 0 15px 0;
+}
+
+.footer {
+  color: #510642;
+  background-color: rgb(24, 31, 42);
+}
+.footer .blue i {
+  color: #efeff8;
+}
+.footer .blue i:hover {
+  background: #3c7fc6;
+  color: #2d394b36;
+}
+.footer .fa-chevron-up {
+  cursor: pointer;
+  font-size: 34px;
+  margin: 40px 0 0 0;
+  position: relative;
+  top: 0px;
+}
+.footer .fa-chevron-up:hover {
+  -webkit-animation: up 1s infinite;
+  /* Chrome, Safari, Opera */
+  animation: up 1s infinite;
+}
+@-webkit-keyframes up {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 5px;
+  }
+  50% {
+    top: 0px;
+  }
+  75% {
+    top: 5px;
+  }
+  100% {
+    top: 0px;
+  }
+}
